@@ -110,14 +110,14 @@ body {
 
 /* Feauture */
 
-.feauture-title {
+.feauture-title .team-subject .project-subject {
   font-weight: 500;
   font-size: 20px;
   line-height: 1, 2;
   letter-spacing: 0.02em;
 }
 
-.feauture-text {
+.feauture-text .team-text .project-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
@@ -146,4 +146,29 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+/* Filters */
+
+.filters-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.filters-item:hover,
+.filters-item:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
