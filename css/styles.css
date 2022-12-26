@@ -35,6 +35,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-list {
@@ -84,6 +86,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  background: #2e2f42;
 }
 
 .hero-button {
@@ -137,8 +140,14 @@ body {
 }
 
 /* Team */
+.team {
+  background: #f4f4fd;
+}
 
 /* Footer */
+.footer {
+  background: #2e2f42;
+}
 
 .slogan {
   font-weight: 400;
