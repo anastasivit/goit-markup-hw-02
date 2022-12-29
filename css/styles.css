@@ -9,11 +9,20 @@ ol {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #ffffff;
+  color: var(--dark-color);
+  background-color: var(--white-color);
   font-size: 16px;
 }
 
+:root {
+  --accent-color: #e7e9fc;
+  --dark-color: #2e2f42;
+  --primary-color: #4d5ae5;
+  --pressed-color: #404bbf;
+  --text-color: #434455;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+}
 /* STUDIO STYLES */
 
 /* Header */
@@ -27,7 +36,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .titlelogo {
@@ -39,8 +48,8 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  background-color: #ffffff;
+  color: var(--primary-color);
+  background-color: var(--white-color);
 }
 
 .nav-link {
@@ -48,12 +57,12 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 
 .contacts {
@@ -63,28 +72,28 @@ body {
 .mail {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .phone-number {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .mail:hover,
 .mail:focus {
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 
 .phone-number:hover,
 .phone-number:focus {
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 
 /* Hero */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .hero-title {
@@ -92,7 +101,7 @@ body {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button {
@@ -101,10 +110,10 @@ body {
   left: 636px;
   top: 428px;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--primary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button:hover,
@@ -113,7 +122,7 @@ body {
   height: 56px;
   left: 20px;
   top: 88px;
-  background-color: #404bbf;
+  background-color: var(--pressed-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -134,7 +143,7 @@ body {
 .project-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* Doing */
@@ -149,13 +158,13 @@ body {
 
 /* Team */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
 }
 
 /* Footer */
 .footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .ftr-logo {
@@ -167,7 +176,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 
 .footer-logo {
@@ -179,14 +188,14 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  background-color: #2e2f42;
+  color: var(--primary-color);
+  background-color: var(--dark-color);
 }
 
 .slogan {
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--acent-color);
 }
 
 /* PORTFOLIO STYLES */
@@ -214,7 +223,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
+  color: var(--primary-color);
 }
 
 .filters-item:hover,
@@ -225,5 +234,5 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
 }
