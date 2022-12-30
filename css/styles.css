@@ -215,20 +215,21 @@ body {
   overflow: hidden;
 }
 
-.filters-item {
+.filters-button {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--primary-color);
 }
 
-.filters-item:hover,
-.filters-item:focus {
+.filters-button:hover,
+.filters-button:focus {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -236,3 +237,21 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
 }
+
+/* .fiters-item {
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filters-item:hover,
+.folters-item:focus {
+  width: 69px;
+  height: 48px;
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+} */
